@@ -2,38 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Arfa Mehak - Academic Certificates</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arfa Mehak - Certificates</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Certificates</h1>
+  <div class="gallery">
+    <img src="images/git-guide.png" alt="Git Guide Certificate">
+    <img src="images/nodejs-advanced.png" alt="NodeJS Advanced Certificate">
+    <img src="images/javascript-infosys.png" alt="JavaScript Infosys Certificate">
+    <img src="images/qlik-data-literacy.png" alt="Qlik Data Literacy Certificate">
+    <img src="images/qlik-data-analytics.png" alt="Qlik Data Analytics Certificate">
+    <img src="images/css3-infosys.png" alt="CSS3 Infosys Certificate">
+    <img src="images/html5-infosys.png" alt="HTML5 Infosys Certificate">
+    <img src="images/frontend-webdev.png" alt="Front End Web Developer Certificate">
+    <img src="images/qlik-data-qualification.png" alt="Qlik Data Qualification Certificate">
+  </div>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f4f6f9;
-    }
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
 
-    header {
-      text-align: center;
-      padding: 25px;
-      background-color: #0a3d62;
-      color: white;
-      border-radius: 8px;
-    }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
 
-    h2 {
-      color: #0a3d62;
-      margin-top: 40px;
-    }
-
-    section {
-      background: white;
-      padding: 20px;
-      margin-top: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    .certificate {
-      width: 100%;
-      max-width: 900px;
-      margin: 20px auto;
-      display: block;
+.gallery img {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
