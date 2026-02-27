@@ -2,47 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arfa Mehak - Certificates</title>
-  <link rel="stylesheet" href="style.css">
+  <title>My Certificates</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 15px;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .card h2 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+      color: #444;
+    }
+    .card p {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
   <h1>My Certificates</h1>
   <div class="gallery">
-    <img src="images/git-guide.png" alt="Git Guide Certificate">
-    <img src="images/nodejs-advanced.png" alt="NodeJS Advanced Certificate">
-    <img src="images/javascript-infosys.png" alt="JavaScript Infosys Certificate">
-    <img src="images/qlik-data-literacy.png" alt="Qlik Data Literacy Certificate">
-    <img src="images/qlik-data-analytics.png" alt="Qlik Data Analytics Certificate">
-    <img src="images/css3-infosys.png" alt="CSS3 Infosys Certificate">
-    <img src="images/html5-infosys.png" alt="HTML5 Infosys Certificate">
-    <img src="images/frontend-webdev.png" alt="Front End Web Developer Certificate">
-    <img src="images/qlik-data-qualification.png" alt="Qlik Data Qualification Certificate">
+    <!-- Certificate 1 -->
+    <div class="card">
+      <img src="images/git-certificate.png" alt="Git Certificate">
+      <h2>The Complete Git Guide</h2>
+      <p>Udemy | Feb 23, 2026</p>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="card">
+      <img src="images/nodejs-certificate.png" alt="NodeJS Certificate">
+      <h2>NodeJS: Advanced Concepts</h2>
+      <p>Udemy | Feb 22, 2026</p>
+    </div>
+
+    <!-- Certificate 3 -->
+    <div class="card">
+      <img src="images/javascript-certificate.png" alt="JavaScript Certificate">
+      <h2>JavaScript Course</h2>
+      <p>Infosys | Jan 22, 2026</p>
+    </div>
+
+    <!-- Add more certificates here -->
   </div>
 </body>
 </html>
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background: #f4f4f9;
-  margin: 0;
-  padding: 20px;
-}
-
-h1 {
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.gallery img {
-  width: 100%;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
-}
